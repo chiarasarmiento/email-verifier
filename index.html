@@ -40,7 +40,7 @@
 					url: 'emailVerifier.php',
 					data: $('form').serialize(),
 					success: function (data) {
-						alert(data);
+						console.log(data);
 						$("form").trigger("reset");
 					}
 				});
